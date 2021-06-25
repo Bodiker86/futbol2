@@ -10,6 +10,10 @@
 </head>
 
 <body>
+    <?php
+        $db = new mysqli('localhost', 'root', '', 'egzamin');
+
+    ?>
     <header>
         <h3>Reprezentacja polski w piłce nożnej</h3>
         <img src="obraz1.jpg" alt="reprezentacja">
@@ -40,7 +44,12 @@
         <h3>Liga mistrów</h3>
     </main>
 
-    <div id="liga"></div>
+    <div id="liga">
+        <div id="druzyna"></div>
+    </div>
+    <?php
+    $db->close();
+    ?>
 </body>
 
 </html>
