@@ -15,20 +15,6 @@ header {
     height: 330px;
 }
 
-div#druzyna {
-
-    color: white;
-    text-align: center;
-    width: 170px;
-    margin: 5px;
-    border: 1px solid white;
-    border-radius: 15px;
-}
-div#druzyna:hover {
-    color: black;
-    background-color: white;
-}
-
 main {
     color: white;
 }
@@ -48,8 +34,25 @@ div#lewy {
 div#prawy {
     background-color: whitesmoke;
     flex: 70%;
-    text-align: center;
     height: 150px;
     
 }
 
+div#liga {
+    display: flex;
+}
+
+
+div#druzyna {
+
+    color: white;
+    text-align: center;
+    width: 170px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+div#druzyna:hover {
+    color: black;
+    background-color: white;
+}
