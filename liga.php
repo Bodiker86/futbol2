@@ -14,39 +14,33 @@
         <h3>Reprezentacja polski w piłce nożnej</h3>
         <img src="obraz1.jpg" alt="reprezentacja">
     </header>
-    <div id="lewy">
-        <form action="liga.php" method="post">
-            <select>
-                <option value="">Bramkarze</option>
-                <option value="">Obrońcy</option>
-                <option value="">Pomocnicy</option>
-                <option value="">Napastnicy</option>
-            </select>
-            <button type="submit">Zobacz</button>
+    <div id="podzial">
+        <div id="lewy">
+            <form action="liga.php" method="post">
+                <select>
+                    <option value="">Bramkarze</option>
+                    <option value="">Obrońcy</option>
+                    <option value="">Pomocnicy</option>
+                    <option value="">Napastnicy</option>
+                </select>
+                <button type="submit">Zobacz</button>
+            </form>
             <img src="zad2.png" alt="piłka">
             <p>Autor: 86123019619</p>
-        </form>
-        
-    </div>
-    <div id="prawy">
-        <ol>
-            <li>
-                <?php
+        </div>
 
+        <div id="prawy">
+            <ol>
+                <li></li>
+            </ol>
+        </div>
 
-                ?>
-            </li>
-        </ol>
     </div>
     <main>
         <h3>Liga mistrów</h3>
     </main>
-    <div id="liga">
-        <?php
 
-        ?>
-    </div>
-
+    <div id="liga"></div>
 </body>
 
 </html>
